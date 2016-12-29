@@ -1,0 +1,31 @@
+revert
+reset
+checkout
+
+$ cd C:/Users/vasudha_sanghave/GIT-DEMO
+come into a specific directory
+
+$ git config --global user.name "vasudha"
+$ git config --global user.email "vasudha_sanghave@persistent.co.in"
+$ git config --list
+$ git init
+$ git add test.txt
+$ git status
+$ git commit -m "this is first commit"
+$ git add .
+$ git status
+$ git commit -m "change in file1"
+$ git commit -am "change 2 in test.txt"  //add and commit
+$ git log; //check for modification-number of times
+$ git log --oneline
+$ git log --oneline -1 ///previous modification latest 1 if -2 the 2
+$ git log --author="v" //chaeck for pattern 
+$ git log --since="12-28-2016" //from the date
+$ git log --until=12-27-2016	//till the date
+$ git log --grep="change"
+$ git diff
+$ git diff --staged
+$ git log --oneline
+$ git checkout 67f5041
+
+
